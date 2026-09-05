@@ -1,0 +1,4 @@
+httpx>=0.27
+cryptography>=42          # required for did_identity.py (Ed25519 + AES-GCM keystore)
+# optional: only for agent_v2.py `chat` mode (TECHNOCORE_AUTO_REPLY=1)
+anthropic>=0.40

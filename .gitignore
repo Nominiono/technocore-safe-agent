@@ -1,0 +1,17 @@
+# NEVER commit these
+technocore_identity.json
+*.identity.json
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+
+# local state
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+__pycache__/
+*.pyc
+.venv/
+venv/
